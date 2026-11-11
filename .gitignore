@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Runtime state
+state.json
+state.json.bak
+state.json.tmp
+
+# The moderators' word lists, the bias hints and what the bot heard stay on the server
+terms.txt
+terms*.txt
+bias_terms.txt
+logs/
+*.log
+audio_dumps/
+
+# Local shortcut
+*.lnk
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS
+.DS_Store
